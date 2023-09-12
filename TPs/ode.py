@@ -22,6 +22,9 @@ def euler(f, x, t, h, p):
           
     return new_x
 
+def condition(x, t, p):
+    # Define la función condicionante si es necesario
+    return None
 
 def integrador_ode(m, f, x0, a, b, k, p, c=None):
     """
